@@ -1,0 +1,42 @@
+/*
+void bang(char ** array, long bangNum, size_t sequence) {
+        if(bangNum >= sequence) {
+                fprintf(stderr,
+                        "!%ld cannot be completed since it doesn't exist.\n",
+                        bangNum);
+                return;
+        } else if((sequence - bangNum > MAX_HISTORY) &&
+                        (bangNum > MAX_HISTORY)) {
+                fprintf(stderr,
+                        "!%ld is lost. Only !%ld-!%ld can be accessed.\n",
+                        bangNum, sequence - MAX_HISTORY, sequence);
+                return;
+        }
+        size_t adjustedSequence;
+        if(bangNum > MAX_HISTORY) {
+                adjustedSequence = MAX_HISTORY - (sequence - bangNum);
+        } else {
+                adjustedSequence = bangNum - 1;
+        }
+        //printf("adjustedSequence: %ld\n", adjustedSequence);
+        char * tok = NULL;
+        char * temp = (char*)malloc(strlen(array[adjustedSequence]) + 1);
+        strcpy(temp, array[adjustedSequence]);
+        tok = strtok(temp, " \n");
+        // check what command it is but don't store it
+        if(!strcmp(tok, "help")) {
+                help(0, NULL);
+        } else if(!strcmp(tok, "history")) {
+                history(sequence + 1, array);
+                //printHistory(array, sequence + 1);
+        } else if(tok[0] == '!') {
+                char temp2[MAX_STRING];
+                memcpy(temp2, &tok[1], strlen(tok));
+                temp[strlen(tok)] = '\0';
+                long bangNum = strtol(temp2, NULL, 10);
+                bang(array, bangNum, sequence);
+        }
+
+        free(temp);
+}*/
+

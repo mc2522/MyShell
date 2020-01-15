@@ -1,0 +1,113 @@
+commit c3b47b62e7f12b0cd2c3859788c41a357b249f96
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 23:34:33 2019 -0400
+
+    function header fixed
+
+commit 4f953a41ed62b85c499d010ae8fac901547316eb
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 22:15:54 2019 -0400
+
+    complete
+
+commit 019dacf2e6466db353ef7fd2db9872f5c66c11c8
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 21:18:46 2019 -0400
+
+    get rid of make warnings
+
+commit 1d2878f90e1a88c9642cfc6e46bdc7384eaef996
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 18:06:13 2019 -0400
+
+    documented everything
+
+commit 8f72632464e2a82ef66097bf00719a79dffb3637
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 17:31:23 2019 -0400
+
+    fixed up make warnings
+
+commit 0c766bf9d835c52eea57830516552feed0bf0baa
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 17:07:55 2019 -0400
+
+    complete with a few memory problems
+
+commit 10fcb688596fc4a4164c91ba565457a2230f12e8
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 04:02:54 2019 -0400
+
+    fixed bug with bang command
+
+commit 5c9bf85f22758c24a7d4f79d97bf913f8d2cd19e
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sun Apr 21 03:13:11 2019 -0400
+
+    finished almost everything except quote parsing.
+
+commit d758a83062c55a2573cb0356b072fa74c59677a1
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sat Apr 20 17:22:50 2019 -0400
+
+    formatting issues in verbose need to fix.
+
+commit 5ddaf7c1885ed7b0dab68e97de57a26a0af09812
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sat Apr 20 16:34:05 2019 -0400
+
+    semi complete verbose.
+
+commit 5391ba3ffedbc4cf7616009a06f587739fb5f19a
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Sat Apr 20 03:31:59 2019 -0400
+
+    almost complete. finished external command function. need to finish verbose and command line args.
+
+commit 9c97614cdfc4b75f84e3909902794ab78b96a192
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Fri Apr 19 01:55:29 2019 -0400
+
+    converted internal command functions to have appropriate headers.
+
+commit 21595a9bc656d37780fac3f5e487a3cd50c23415
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Thu Apr 18 14:05:08 2019 -0400
+
+    bang works, but there are memory problems
+
+commit d9b408d5930f02640c20d06aa0697822583c22f1
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Wed Apr 17 18:52:56 2019 -0400
+
+    fixed sequencing mistake
+
+commit 0f7cb59c2bafdc7e34d12618cac304f8970286c6
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Wed Apr 17 17:04:28 2019 -0400
+
+    parsing for bang command works.
+
+commit 86a70791cf3b2bf29a70ce241f582c5bc386f74a
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Wed Apr 17 12:09:51 2019 -0400
+
+    history is partially working but must write code to scale everything back one.
+
+commit 9fce17766b156b63abe41259be37440242a99d10
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Tue Apr 16 15:14:42 2019 -0400
+
+    segfault within storeCommand function. Need to fix.
+
+commit 426fbf91f044eb5c174509678d5d01b60f9f91cd
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Mon Apr 15 22:00:13 2019 -0400
+
+    added more functions and almost completed internal commands.
+
+commit 0e6383e62b680bdf908aca3b06aa006e40e4ab76
+Author: Mike  Cao <mc2522@cs.rit.edu>
+Date:   Mon Apr 15 02:47:41 2019 -0400
+
+    Initial Commit. Added a few functions for internal commands such as echo and date.
